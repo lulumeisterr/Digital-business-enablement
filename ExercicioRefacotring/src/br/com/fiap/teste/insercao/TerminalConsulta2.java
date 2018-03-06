@@ -11,6 +11,7 @@ public class TerminalConsulta2 {
 	public static void main(String[] args) throws Exception {
 		
 		int cdProd = 0;
+		
 		Produto p = new Produto();
 		EstoqueBO bo = new EstoqueBO();
 		
@@ -25,5 +26,7 @@ public class TerminalConsulta2 {
 		
 		DecimalFormat df = new DecimalFormat("R$ #,###.00");
 		System.out.println(df.format(prod.getPreco()));
+	
+		
 	}
 }

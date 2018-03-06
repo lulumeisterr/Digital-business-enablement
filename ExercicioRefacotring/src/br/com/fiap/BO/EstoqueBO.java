@@ -2,12 +2,24 @@ package br.com.fiap.BO;
 
 import java.util.ArrayList;
 
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+
 import br.com.fiap.bean.Produto;
 
 
+
 public class EstoqueBO {	
+	
+	private static final Logger log = LoggerFactory.getLogger(EstoqueBO.class);
+
+	
 	ArrayList<Produto> listaProd = new ArrayList<>();	
 	public EstoqueBO(){
+		
+		log.info("Inicialização do LOG");
+		
+		log.debug("Inicializando o set");
 		
 		Produto pTO = new Produto();
 		
@@ -15,6 +27,8 @@ public class EstoqueBO {
 		pTO.setDescricao("Camiseta Masculina Manga Curta Branca");
 		pTO.setPreco(25.0);
 		pTO.setEstoque(5);
+		
+		log.debug("Cadastrando o primeiro produto");
 		
 		this.listaProd.add(pTO);
 		
@@ -24,7 +38,7 @@ public class EstoqueBO {
 		pTO2.setDescricao("Camiseta Feminina Manga Longa Rosa");
 		pTO2.setPreco(10.0);
 		pTO2.setEstoque(2);
-		
+		log.debug("Cadastrando o Segundoo produto");
 		this.listaProd.add(pTO2);
 		
 	}
@@ -46,10 +60,10 @@ public class EstoqueBO {
 		
 		
 		Produto msg = new Produto();
-		msg.setDescricao("Produto não Cadastrado");
+		msg.setDescricao("Produto nao cadastrado");
 		return msg;
 	}
 	
 
-
+	
 }

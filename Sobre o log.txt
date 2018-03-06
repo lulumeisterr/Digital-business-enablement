@@ -1,0 +1,19 @@
+defaut.out , default.file
+
+
+log4j.rootLogger=DEBUG,stdout 
+// Nivel minimo que eu quero exibir na tela o nivel de debug
+// stdout é console , saida padrão
+
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender  
+//Apender onde será a saida verdadeira , ex ConsoleAppender para imprimir no console
+
+log4j.appender.stdout.Target=System.out
+
+log4j.appender.default.file=....
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout 
+// Layoult pois tem como imprimir no HTML e por estilização
+
+
+log4j.appender.stdout.layout.ConversionPattern=%d{ABSOLUTE}%5p %c{1}:%L - %m%n 
+//Design pattern , aqui tem o padrao de dados que você quer que imprima na tela  %d - Data , %D - Dias , a mensagem aparece depois do padrao
