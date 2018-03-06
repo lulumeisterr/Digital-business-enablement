@@ -1,0 +1,37 @@
+package br.com.fiap.teste.insercao;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.BO.EstoqueBO;
+
+public class Revisao_two {
+
+	public static void main(String[] args)throws Exception{
+		
+		int n1 = 0;
+		int ver = 0;
+		
+		do{
+			ver = Integer.parseInt(JOptionPane.showInputDialog("Digite 1 Para entrar")); 
+			switch (ver) {
+			case 1:
+				//LerEntradaDados(n1);
+				EstoqueBO.LerEntradaDados(n1);
+				break;
+
+			case 0:
+				System.out.println("Saiu");
+				break;
+				
+			default:
+				throw new Exception("Numero invalido");
+			}
+		}while(ver > 0);
+	}
+
+}
+
+

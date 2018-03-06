@@ -1,0 +1,40 @@
+package br.com.fiap.teste.insercao;
+
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.BO.EstoqueBO;
+
+public class TerminalConsulta {
+
+	public static void main(String[] args)throws Exception{
+		
+		int n1 = 0;
+		int ver = 0;
+		
+		do{
+			ver = Integer.parseInt(JOptionPane.showInputDialog("Digite 1 Para entrar")); 
+			switch (ver) {
+			case 1:
+				EstoqueBO.LerEntradaDados(n1);
+				if(n1 == 401){
+					JOptionPane.showMessageDialog(null, "Camiseta Masculina Manga Curta Branca" + " Dia da semana " + new SimpleDateFormat("dd/MM/yyyy").format(Calendar.getInstance().getTime()));
+				}else{
+					JOptionPane.showMessageDialog(null, "Camiseta Feminina Manga Longa Rosa." + " Dia da semana " + new SimpleDateFormat("dd/MM/yyyy").format(Calendar.getInstance().getTime()));;
+				}
+				break;
+			case 0:
+				System.out.println("Saiu");
+				break;
+			default:
+				throw new Exception("Numero invalido");
+			}
+		}while(ver > 0);
+	}
+
+}
+
+

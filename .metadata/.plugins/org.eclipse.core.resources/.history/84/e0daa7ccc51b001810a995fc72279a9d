@@ -1,0 +1,10 @@
+package br.com.fiap.bean;
+
+import java.util.Properties;
+
+public class PropertySingleton {
+
+	private static Properties p;
+	private static final String ARQ = "/";
+	
+}
