@@ -1,0 +1,36 @@
+WebServices :  É uma solução que facilita a integração dos sistemas , de diferentes plataformas  e linguagens.
+como eu posso ter uma aplicacao desenvolvida em donet e uma em java , justamente 
+pela troca de mensagem com a linguagem XML.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+XML - Uma linguagem de marcação  utilizada para 
+troca de informações com WS , é necessario o envio de
+requisições atraves de mensagens em XML para obter a comunicacao;
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+XSD - é utilizado para validação de parametros recebidos
+
+º Exemplo : Quero consultar um cliente , e nessa operacao preciso passar um 
+  parametro , codigo do cliente e atraves do XSD eu consigo saber se é a informação
+  é correta.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+WSDL - Web Services Description Language - é uma descrição do serviço apoiado em XML
+e dentro deste arquivo estao descrito as informações do serviço , e mostra onde eu posso
+acessar como as porta , endereco de ip  e mostra também metodos que estao disponiveis 
+para este serviço
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SOAP - Simples Object Access Protocol - Ele é responsavel por entregas as mensagens 
+da aplicação . E pode atuar sobre qualquer protocolo de transporte , e a maioria utiliza o
+protocoloto HTTP.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+REST - é fazer que seus recursos estejam disponiveis atraveis de urls pois Trabalham diretamente sobre protocoloto HTTP
+é um formato de WebService , Todo Rest é um webService e Nem todo WebService é um REST 
+
+- Rest simplifica o formato do WS
+
