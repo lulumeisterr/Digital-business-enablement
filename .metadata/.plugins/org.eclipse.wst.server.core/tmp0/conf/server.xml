@@ -144,7 +144,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\Test2\Digital-business-enablement\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Test2\Digital-business-enablement\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ExemploAxis" path="/ExemploAxis" reloadable="true" source="org.eclipse.jst.jee.server:ExemploAxis"/></Host>
+      <Context docBase="D:\SOAP\Digital-business-enablement\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\SOAP\Digital-business-enablement\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ExemploAxis" path="/ExemploAxis" reloadable="true" source="org.eclipse.jst.jee.server:ExemploAxis"/><Context docBase="D:\SOAP\Digital-business-enablement\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ConfigCliente" path="/ConfigCliente" reloadable="true" source="org.eclipse.jst.jee.server:ConfigCliente"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -1,0 +1,12 @@
+1° Baixar as dependencias do AxisTools
+2° Depois Referenciar a biblioteca do Axis 1.6 ou 1.7 no Preference WebServices AxisEnemb.
+3° Criar Servidor e dar runAs na classe que deseja , Acessar no navegador http://localhost:8080/NomeDaSuaClasse
+4° Copiar WSDL que fica no htttp
+5° Abrir o SOAP
+6° Clicar em SOAP
+7° Passar o WSDL Para Configurar o SOAP
+8° dar um new Request Para ele pegar as Referencias dos projetos java e transformar em XML
+9° Criando os stubs , Criar um novo Web Dynamic Project , Clicar no Modify e Selecionar o Axil2 WebService
+10°Clicar no projeto ir em others e procurar por Web Service Cliente 
+11°Clicar em Browse e passar a referencia do WSDL
+12°No Configuration Mudar para Apache Axis2 e dar OK
