@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+D:\AmbienteParaNACRafael\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1529022541.index
