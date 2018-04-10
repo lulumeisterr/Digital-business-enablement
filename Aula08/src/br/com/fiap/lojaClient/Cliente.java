@@ -14,7 +14,7 @@ public class Cliente {
 	public static void main(String[] args) {
 
 			
-		int i = 2;
+		int i = 1;
 		
 		switch (i) {
 		case 1:
@@ -28,10 +28,6 @@ public class Cliente {
 		default:
 			break;
 		}
-		
-		
-		
-
 	}
 
 	private static void BuscarProdutoClient() {

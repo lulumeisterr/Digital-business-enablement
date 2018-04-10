@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Estoque-WS">
-        <wb-resource deploy-path="/" source-path="/WebContent"/>
-        <property name="context-root" value="Estoque-WS"/>
-        <property name="java-output-path" value="/Estoque-WS/build/classes"/>
-    </wb-module>
-</project-modules>

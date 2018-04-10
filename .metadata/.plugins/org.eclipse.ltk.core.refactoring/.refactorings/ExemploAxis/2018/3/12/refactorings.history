@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 2 packages to &apos;ConfigurandoOnceAgain/src&apos;&#x0D;&#x0A;- Original project: &apos;ExemploAxis&apos;&#x0D;&#x0A;- Destination element: &apos;ConfigurandoOnceAgain/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ExemploAxis/src/br.com.fiap.bean&#x0D;&#x0A;     ExemploAxis/src/br.com.fiap.BO" description="Copy packages" destination="=ConfigurandoOnceAgain/src" element1="/src&lt;br.com.fiap.bean" element2="/src&lt;br.com.fiap.BO" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1521547278037" version="1.0"/>
-</session>
