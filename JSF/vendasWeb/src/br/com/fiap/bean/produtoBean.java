@@ -1,6 +1,8 @@
 package br.com.fiap.bean;
 
-import javax.annotation.ManagedBean;
+
+
+import javax.faces.bean.ManagedBean;
 
 import br.com.fiap.bo.EstoqueBO;
 
@@ -17,7 +19,7 @@ public class produtoBean {
 		
 	}
 	
-	public void ConsultarProdutoBean() {
+	public void ConsultarProdutoBean()throws Exception{
 		EstoqueBO est = new EstoqueBO();
 		
 		produtoBean p = est.consultarProduto(getCdProd());

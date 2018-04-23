@@ -9,14 +9,14 @@
 </h:head>
 <h:body>
 
-	<h:form id="CadastrarProdutor">
-	
-		<label>Codigo do Produto</label>
-		<h:inputText id="iProd" value="#{produtoBean.cdProd}" required="true"/>
+	<h:form id="CadastrarProdutor">			
+		<h:form>
+		Codigo do produto: 
+		<h:inputText value="#{produtoBean.cdProd}" id="cdProd"/>
 		
-		<h:commandButton id="btnConfirmar" action="#{produtoBean.ConsultarProdutoBean}">
-		</h:commandButton>
-		
+		<h:commandButton value="Confirmar" action="#{produtoBean.ConsultarProdutoBean}" />
+		</h:form>
+
 	</h:form>
 
 </h:body>
