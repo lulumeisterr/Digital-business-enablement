@@ -17,6 +17,10 @@ public class loginBean {
 			return "logWrong";
 		}
 	}
+	
+	public void consultar() {
+		
+	}
 
 	public loginBean() {
 
