@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#login.xhtml" PATH="/login.xhtml"
+  SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#login.xhtml:0" NAME="item"
+   PATH="/login.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="correto::#logRight.xhtml" NAME="output"
+    PATH="/logRight.xhtml" TARGET="rules:#logRight.xhtml"
+    TITLE="correto" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="errado::#logWrong.xhtml" NAME="output1"
+    PATH="/logWrong.xhtml" TARGET="rules:#logWrong.xhtml" TITLE="errado" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#logRight.xhtml" PATH="/logRight.xhtml"
+  SHAPE="256,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#logWrong.xhtml" PATH="/logWrong.xhtml"
+  SHAPE="256,177,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>
