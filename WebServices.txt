@@ -1,4 +1,39 @@
 
+JSF
+
+Frameworks Web – Tipos
+
+Request-based
+– Trabalha perto do protocolo HTTP.
+– Dificuldade no reuso de código de interface.
+– Vasta documentação e casos de sucesso.
+– Exemplos: Struts, Spring e WebWork.
+
+Component-based
+– Modelo de desenvolvimento parecido com desktop.
+– Gera componentes a partir da necessidade da tela.
+– Crescimento acelerado como padrão de interface Web.
+– Exemplos: JSF, Tapestry e GWT.
+
+
+º Convenção de nomes (Ex: LoginBean,CadastroClienteBean).
+
+º No JSF o componente responsável por gerar o HTML final chama-se RenderKit.
+
+º Componentes JSF são elementos como inputText, commandButton, outputText, dataTable que são usados
+para criar interface com o usuário.
+
+º JSF utiliza técnica de CoC (Convention of Configuration) e anotações para o desenvolvimento do código.
+
+º O Managed Bean pode ter 5 escopos:
+
+– Request: conteúdo do Managed Bean visível somente no fluxo requestresponse.
+– View: conteúdo do Managed Bean visível enquanto a página estiver em processamento. 
+– Session: conteúdo do Managed Bean visível durante toda a sessão do usuário.
+– Application: conteúdo do Managed Bean para todas as sessões do servidor.
+– Custom: possibilidade de se customizar um escopo de acordo com a necessidade.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 O'que é design patterns ou seja padrao de projeto ?
 R : são soluções para problemas de engenharia de software, desenvolvidas  pela comunidade de orientação a objetos. 
