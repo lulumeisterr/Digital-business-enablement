@@ -1,36 +1,106 @@
-WebServices :  � uma solu��o que facilita a integra��o dos sistemas , de diferentes plataformas  e linguagens.
+
+
+O'que é design patterns ou seja padrao de projeto ?
+R : são soluções para problemas de engenharia de software, desenvolvidas  pela comunidade de orientação a objetos. 
+
+1 º Os Padrões de Projeto tornam mais fácil reutilizar soluções e arquiteturas bem sucedidas para construir 
+softwares orientados a objetos de forma flexível e fácil de manter
+
+MVC - Model - Acesso ao banco de dados , sistema gerenciador de banco de dados
+      View - interface
+      Controller - Logica da aplicação
+      
+Transfer Object (TO) Transfere dados entre camadas. e Também pode ser encontrado com outros nomes como  
+Value Object (VO) e Data Transfer Object (DTO)  - Famosa mula de carga
+
+
+Padrao de projeto - Singleton
+
+O padrão de projeto Singleton existe para ser aplicado 
+quando se deseja que exista apenas uma instância da 
+classe. Esse padrão é implementando de forma que a 
+própria classe fique responsável por instanciar e oferecer 
+a única instância dela mesma.
+
+Sincrona
+
+A comunicação síncrona é quando temos a oportunidade de falar com alguma pessoa de maneira direta.
+
+Tecnologias da Sincrona
+
+WebServices (SOAP)
+REST (Representational State Transfer)
+
+Assincrona
+
+Já a comunicação assíncrona é a que está desconectada do tempo e do espaço. Ou seja, 
+o comunicador e o receptor podem manter relacionamento na medida em que tenham tempo disponível.
+Alguns exemplos de ferramentas de comunicação assíncrona são: whatsapp e aplicativos de mensagens,
+e-mails, chats de texto, SMS, etc.
+
+Tecnologias da Assincrona
+
+- Mensageria (Message Queuing (MQ)) (JMS Java Message Service, .Net Message Queue Service)
+–Transferência de Arquivo (File transfer Service)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+WebServices :  É uma solução que facilita a integração dos sistemas , de diferentes plataformas  e linguagens.
 como eu posso ter uma aplicacao desenvolvida em donet e uma em java , justamente 
 pela troca de mensagem com a linguagem XML.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-XML - Uma linguagem de marca��o  utilizada para 
-troca de informa��es com WS , � necessario o envio de
-requisi��es atraves de mensagens em XML para obter a comunicacao;
+XML - Uma linguagem de marcação  utilizada para 
+troca de informações com WS , é necessario o envio de
+requisições atraves de mensagens em XML para obter a comunicacao;
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-XSD - � utilizado para valida��o de parametros recebidos
+XSD - é utilizado para validação de parametros recebidos
 
-� Exemplo : Quero consultar um cliente , e nessa operacao preciso passar um 
-  parametro , codigo do cliente e atraves do XSD eu consigo saber se � a informa��o
-  � correta.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-WSDL - Web Services Description Language - � uma descri��o do servi�o apoiado em XML
-e dentro deste arquivo estao descrito as informa��es do servi�o , e mostra onde eu posso
-acessar como as porta , endereco de ip  e mostra tamb�m metodos que estao disponiveis 
-para este servi�o
+º Exemplo : Quero consultar um cliente , e nessa operacao preciso passar um 
+  parametro , codigo do cliente e atraves do XSD eu consigo saber se é a informação
+  é correta.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-SOAP - Simples Object Access Protocol - Ele � responsavel por entregas as mensagens 
-da aplica��o . E pode atuar sobre qualquer protocolo de transporte , e a maioria utiliza o
+WSDL - Web Services Description Language - é uma descrição do serviço apoiado em XML
+e dentro deste arquivo estao descrito as informações do serviço , e mostra onde eu posso
+acessar como as porta , endereco de ip  e mostra também metodos que estao disponiveis 
+para este serviço
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SOAP - Simples Object Access Protocol - Ele é responsavel por entregas as mensagens 
+da aplicação . E pode atuar sobre qualquer protocolo de transporte , e a maioria utiliza o
 protocoloto HTTP.
 
+Apache Axis é uma implementação do protocolo SOAP 
+que permite a criação e publicação de WebServices 
+(WebService Provider) e a criação de clientes de acesso 
+(WebService Requester) de forma simplificada e também 
+automática, com o auxílio das ferramentas disponíveis no 
+próprio Apache Axis. Considerado um framework
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-REST - � fazer que seus recursos estejam disponiveis atraveis de urls pois Trabalham diretamente sobre protocoloto HTTP
-� um formato de WebService , Todo Rest � um webService e Nem todo WebService � um REST 
+RESTFul (REpresentational State Transfer) - é fazer que seus recursos estejam disponiveis 
+atraveis de urls pois Trabalham diretamente sobre protocoloto HTTP é um formato de WebService , 
+Todo Restfull é um webService e Nem todo WebService é um REST.
+
+Simples, leve, fácil de desenvolver e evoluir.
+Tudo é um recurso (Resource).
+Cada recurso possui um identificador (URI).
+Recursos podem ser de vários formatos: HTML, XML, JSON.
+
+Protocolo HTTP; Os métodos HTTP: 
+
+                            GET, = Recupera informacao
+                            POST, =  Cria um novo recurso
+                            PUT, = Atualiza um recurso
+                            DELETE = remove um recurso
+                            
+                            são utilizados na arquitetura REST.
+
 
 - Rest simplifica o formato do WS
 
