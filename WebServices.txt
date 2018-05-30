@@ -1,6 +1,21 @@
 
 JSF
 
+
+No JSF podemos utilizar mais 2 mecanismos de navegação:
+
+– Navigation Rule com EL (Expression Language).
+– Navigation Rule com CASE (IF).
+
+Navegacao implicida e explicita
+
+A explicita voce precisa ter uma regra de navegacao onde exista tela de origem
+Outcome (String de navegacao) e tela do destino
+
+Implicita - Onde vc pode fazer a navegacao utilizando as tags h:commandButton e h:commandLink, 
+a string de navegação é definido no atributo action. (necessário utilizar o h:form)
+
+
 Frameworks Web – Tipos
 
 Request-based
